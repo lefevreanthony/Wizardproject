@@ -1,5 +1,8 @@
 package fr.wildcodeschool.thewizardproject.models;
 
+import org.springframework.stereotype.Component;
+
+@Component("gandalfId")
 public class Gandalf implements WizardInterface {
     private Outfit myOutfit;
     @Override
